@@ -1,0 +1,105 @@
+html {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: burlywood;
+
+}
+#loginDiv {
+    display: flex;
+    padding-top: 18%;
+    padding-left: 25%;
+    padding-right: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+    align-content: center;
+    padding: 5px;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#loginButton {
+    width: 35%;
+}
+#nextButton, #previousButton {
+    padding: 7px;
+    width: 80px;
+    text-align: center;
+}
+#nextButton {
+    background-color: pink;
+}
+
+#previousButton {
+    background-color: turquoise;
+}
+
+#filterByUser, #allLogsButton {
+    background-color: mediumspringgreen;
+    text-align: center;
+    padding: 7px;
+}
+
+#filterBySeverity, #filterByType {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#filterBySeverityButton {
+    background-color: olivedrab;
+    padding: 7px;
+}
+
+#filterByTypeButton {
+    background-color: darkorange;
+    padding: 7px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table th:nth-child(even) {
+    background-color: blueviolet;
+}
+
+table th:nth-child(odd) {
+    background-color: crimson;
+}
+
+#form {
+    display: flex;
+    width: 25%;
+}
+
+#addForm, #removeForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 75px;
+}
+
+#form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#insertLogButton {
+    padding: 7px;
+    margin:auto;
+    background-color: chocolate;
+}
+
+#removeLogButton {
+    background-color: firebrick;
+    padding: 7px;
+    margin: auto;
+}
